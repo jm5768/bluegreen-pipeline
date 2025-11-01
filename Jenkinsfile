@@ -2,7 +2,7 @@ pipeline {
   agent any
   environment {
     DOCKERHUB_CREDS = credentials('dockerhub-creds')
-    IMAGE_NAME = "pn2849/bluegreen-app"
+    IMAGE_NAME = "jm8240/bluegreen-app"
     KUBECONFIG = "/var/lib/jenkins/.kube/config"
     SERVICE_NAME = "myapp-svc"
     NAMESPACE = "default"
